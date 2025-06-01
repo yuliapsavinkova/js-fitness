@@ -1,0 +1,11 @@
+{
+  "name": "js-coding-problems",
+  "version": "1.0.0",
+  "description": "JavaScript coding problems and solutions",
+  "scripts": {
+    "start": "node test/test-runner.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "type": "module"
+}
