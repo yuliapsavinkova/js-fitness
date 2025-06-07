@@ -2,7 +2,7 @@
  * Problem: Is Palindrome
  * Check if a string is a palindrome.
  *
- * Input: "racecar"
+ * Input: "madam"
  * Output: true
  *
  * Time Complexity: O(n)
@@ -10,7 +10,8 @@
  */
 
 function isPalindrome(str) {
-  let left = 0, right = str.length - 1;
+  let left = 0,
+    right = str.length - 1;
   while (left < right) {
     if (str[left] !== str[right]) return false;
     left++;
@@ -19,5 +20,11 @@ function isPalindrome(str) {
   return true;
 }
 
+function isPalindrome2(str) {
+  const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+  const reversedStr = cleanedStr.split('').reverse().join('');
+  return cleanedStr === reversedStr;
+}
+
 // Test
-console.log(isPalindrome("racecar")); // true
+console.log(isPalindrome('madam')); // true

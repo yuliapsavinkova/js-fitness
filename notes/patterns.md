@@ -1,15 +1,19 @@
 # Common Patterns & Strategies
 
 ## Two Pointers
+
 Used when dealing with sorted arrays or strings.
 
 ## Sliding Window
-Used for problems involving substrings, subarrays, or sequences.
+
+Used for problems involving substrings, sub arrays, or sequences.
 
 ## Hash Map
+
 Fast lookup, used in problems like Two Sum, frequency counting.
 
 ## Recursion
+
 Useful for divide-and-conquer or tree-based problems.
 
 ---

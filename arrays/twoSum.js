@@ -1,7 +1,7 @@
 /**
  * Problem: Two Sum
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
- * 
+ *
  * Input: nums = [2, 7, 11, 15], target = 9
  * Output: [0, 1]
  *
